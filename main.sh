@@ -4,18 +4,18 @@
  echo -e "Press\e[1;37m any key\e[1;37m to install the script..."
  read -n 1
 clear
-mkdir /root/TheTerminalEmulator
-cp -r "$DIR"/* /root/TheTerminalEmulator
-chmod +x /root/TheTerminalEmluator/main.sh
-gnome-terminal -- "bash /root/TheTerminalEmulator/main.sh"
+mkdir /root/TDTF
+cp -r "$DIR"/* /root/TDTF
+chmod +x /root/TDTF/main.sh
+gnome-terminal -- "bash /root/TDTF/main.sh"
 fi
-echo -e "Installing Terminal Emulator..."
+echo -e "Installing TDTF TheDockerToolFramework..."
 sleep 1
 echo -e "Fixing permissions"
 sleep 2
-chmod +x /root/TerminalEmulator/main.sh
-chmod +x /root/TerminalEmulator/T
-echo "Welcome To The Terminal Emulator"
+chmod +x /root/TDTF/main.sh
+chmod +x /root/TDTF/TDTF
+echo "Welcome To TheDockerToolFramework(TDTF)"
 echo "A Docker Project"
 sleep 4
 echo "here lets install docker for you"
@@ -28,7 +28,7 @@ systemctl is-active docker
 echo -e "DONE"
 sleep 1
 clear
-echo -e "Open a NEW terminal and type 'T' to launch the script"
+echo -e "Open a NEW terminal and type 'TDTF' to launch the script"
 sleep  4
-gnome-terminal -- T
+gnome-terminal -- TDTF
 exit
